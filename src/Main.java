@@ -16,7 +16,7 @@ public class Main {
                     break;
                 } else if (numero < numCorrecto) {
                     System.out.println("MAYOR");
-                } else if (numero > numCorrecto) {
+                } else {
                     System.out.println("MENOR");
                 }
             } catch (NumberFormatException e) {
